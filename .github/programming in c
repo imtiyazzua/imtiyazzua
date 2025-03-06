@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define PI 3.14159
+main ()
+{
+float r,area ,cir;
+printf("enter radius:");
+scanf("%f",&r);
+area=PI*R*;
+cir=2*PI*r;
+printf("area is %f \n circumferenc is %f",area,cir);
+}
