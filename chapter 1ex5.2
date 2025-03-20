@@ -1,0 +1,17 @@
+/*program to calculate real roots of a quadratic equation*/
+#include<stdio.h>
+#include<math.h>    /*for the function sqrt  */
+main()
+{
+float a,b,c,d,e,x1,x2;
+/*read input data*/
+printf("enter a,b,c,:");
+scanf("%f%f%f",&a,&b,&c);
+/*carry out calculations */
+d=sqrt(b*b-4*a*c);
+e=2*a;
+x1=(-b+b)/e;
+x2=(-b-b)/e;
+/*write out put*/
+printf("x1=%5.2f x2=%5.2f",x1,x2);
+}
