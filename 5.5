@@ -1,0 +1,22 @@
+/*program to find sum of digits,and also write the number in reverse order */
+#include<stdio.h>
+main()
+{
+unsigned int,num,rem,d1,d2,d3,d4,d5;    /*variable decelaration*/
+/*sepration into individual digits*/
+printf("Enter a five digit number :");
+scanf("%d",&num);    */input statement*/
+d1=num/10000;
+rem=num%10000;
+d2=rem/1000;
+rem=rem%1000;
+d3=rem/100;
+rem=rem%100;
+d4=rem/10;
+rem=rem%10;
+d5=rem;
+*/Find sum of digits*/
+printf("sum of digits=%d\n",d1+d2+d3+d4+d5);
+*/Write given number in reversed order*/
+printf("given number in reversed order is :%d%d%d%d%d",d5,d4,d3,d2,d1);
+}
