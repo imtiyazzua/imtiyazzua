@@ -1,0 +1,23 @@
+/*This is a program to demondtrate the use of the the nested if else statement */
+/*Fthe largest of three numbers */
+#include<stdio.h>
+main()
+{
+int a,b,c;
+printf("\n Give input a,b,c:");
+scanf("%d%d%d",&a,&b,&c);
+if(a>b)
+{
+      if(a>c)
+      printf("\n%d is greatest",a);
+      else
+      printf("\n%d is greatest",c);
+}
+else
+    {
+      if(b>c)
+      printf("\n%d is greatest",b);
+      else
+      printf("\n%d is greatest",c);
+    }
+}
