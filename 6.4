@@ -1,0 +1,20 @@
+/*Use of else if ladder */
+#include<stdio.h>
+main()
+{
+int m1,m2,m3,m4,m5,m6,m7;
+float per ;
+printf("Enter marks in 7 subjects :");
+scanf("%d%d%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5,&m6,&m7);
+per=(m1+m2+m3+m4+m5+m6+m7)/7.0;
+if(per>75)
+   printf("Percantage=%5.2f Division=distinction",per);
+else if(per>=60)
+   printf("Percentage=5.2f Division=firstclass",per);
+else if(per>50)
+  printf("Percentage=5.2f Division=secondclass",per);
+else if(per>40)
+  pritnf("Percantage=5.2f Division=thirdclass",per);
+  else
+  printf("Percantage=5.2f Division=Fail",per);
+  }
